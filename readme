@@ -1,0 +1,12 @@
+@Around Advice
+Run before and after.
+
+Q1 -> What are the use cases of @Around Advice?
+A  -> Most common: logging, auditing, security
+	Pre-processing and post-processing data
+	How long does it take for a section of code to run?
+	Swallow / handle / stop exceptions
+	
+Q2 -> What is a ProceedingJoinPoint?
+A  -> It is a handle to the target method.
+
